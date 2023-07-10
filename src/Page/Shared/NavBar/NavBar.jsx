@@ -19,7 +19,7 @@ const NavBar = () => {
           </ul>
         </div>
         <div className="navbar-end mr-8">
-          <button className="btn text-sm text-orange-400">DOWNLOAD RESUME</button>
+          <button className="btn text-sm bg-orange-600 text-white">DOWNLOAD RESUME</button>
         </div>
       </div>
   );

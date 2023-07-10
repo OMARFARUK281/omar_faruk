@@ -9,7 +9,6 @@ import Frontend from "../Page/Programming/Frontend/Frontend";
 import All from "../Page/Programming/All/All";
 import Backend from "../Page/Programming/Backend/Backend";
 import Tools from "../Page/Programming/Tools/Tools";
-import Programming from "../Page/Programming/Programming";
 
 
 

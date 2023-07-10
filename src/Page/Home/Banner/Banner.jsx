@@ -2,6 +2,7 @@ import React from "react";
 import '../Banner/Banner.css'
 import image from "../../../assets/images/omar1.png";
 import { FaFacebookSquare, FaInstagramSquare, FaLinkedin } from "react-icons/fa";
+import { TypeAnimation } from "react-type-animation";
 
 const Banner = () => {
 
@@ -17,11 +18,23 @@ const Banner = () => {
               OMAR <br /> FARUK
             </h1>
 
-            <div className="pl-12">
-                <h1 className="text-3xl text-white font-bold">Web Designer.</h1>
-                {/* <h1 className="text-3xl font-bold text-white">Front End Developer.</h1>
-                <h1 className="text-3xl font-bold text-white">React Developer.</h1> */}
-            </div>
+
+            <div className="pl-12 text-white text-2xl">
+            <TypeAnimation
+                preRenderFirstString={true}
+                sequence={[
+                  500,
+                  'Web Designer.',
+                  1000,
+                  'Front End Developer.',
+                  1000,
+                  'React Developer.',
+                  1000,
+                ]}
+                  speed={50}
+                  style={{ fontSize: '2em' }}
+                  repeat={Infinity}/>
+             </div>              
 
             <div className="flex pl-12 p-6">
               <a href="https://www.facebook.com/profile.php?id=100005477716236">
